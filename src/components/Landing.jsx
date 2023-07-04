@@ -5,7 +5,7 @@ import backgroundImage from "/Users/fran/programacion/lifulltech/public/lifullba
 
 function Landing() {
   return (
-    <>
+    <section className="h-screen overflow-x-hidden"> 
     <Header />
     <div className="w-screen min-h-screen text-white bg-cover bg-center" style={{
       backgroundImage: `linear-gradient(rgba(38, 38, 38, 0.9), rgba(38, 38, 38, 0.9)), url(${backgroundImage})`
@@ -19,15 +19,14 @@ function Landing() {
             </span>
           </h1>
           <p className="text-2xl mb-8">
-            On this page, you will find all the necessary documentation and assistance for your training in the projects that the content tech department is working on.
             <div className="flex justify-center mx-auto">
               <Tech />
             </div>
           </p>
         </div>
       </div>
-    </div >
-    </>
+    </div>
+    </section>
   )
 }
 
