@@ -15,9 +15,8 @@ function LandingKotlin() {
           <h1 className="my-4 text-5xl font-bold leading-tight inline-flex animate-text-gradient bg-gradient-to-r from-[#32CD32] via-[#008000] to-[#006400] bg-[200%_auto] bg-clip-text text-transparent my-10">
             CRM Leads Proyect
           </h1>
-
           <p className="text-2xl mb-8">
-            Ship products 5-10x faster with your existing design tools, tech stacks & workflows!
+            Welcome to Kotlin
           </p>
           <div className="flex justify-center mx-auto">
             <Link to="/">

@@ -16,7 +16,7 @@ function LandingPhp() {
             CRM Leads Proyect
           </h1>
           <p className="text-2xl mb-8">
-            Ship products 5-10x faster with your existing design tools, tech stacks & workflows!
+          Welcome to Php
           </p>
           <div className="flex justify-center mx-auto">
             <Link to="/">

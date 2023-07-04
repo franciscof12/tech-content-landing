@@ -10,7 +10,7 @@ export default function Tech() {
                 <div className="flex justify-center items-center gap-x-8 gap-y-10">
                     <Link to="/gocustom">
                         <img
-                            className="max-h-28 w-full object-contain hover:brightness-100"
+                            className="max-h-28 w-full object-contain brightness-75 hover:brightness-100"
                             src={golang}
                             alt="Transistor"
                             width={158}
